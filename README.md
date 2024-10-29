@@ -1280,6 +1280,19 @@ body > h1:first-of-type:not(.heading) {
     display: none !important;
 }
 
+.qr-inner {
+      width: 200px;
+      border: 4px solid #f1f1f1;
+      border-radius: 0.5rem;
+      padding: 0rem;
+    }
+
+    .qr-code {
+      width: 200px;
+      height: 200px;
+      display: block;
+    }
+
 </style>
 </head>
 <body>
@@ -1355,6 +1368,9 @@ body > h1:first-of-type:not(.heading) {
     </div>
         
     <footer class="footer">
+        <div class="qr-inner">
+            <img src="https://i.ibb.co/pW70w3k/Whats-App-Image-2024-10-30-at-00-30-34-e74f5cd3.jpg" alt="QR Code" class="qr-code">
+          </div>    
         <div class="footer-container">
             <div class="footer-column">
                 <div class="social-icons">
